@@ -1,0 +1,46 @@
+#box1{
+    margin-left: 440px;
+}
+#first{
+    color: #f72585;
+    font-size: 50px;
+    display: flex;
+    padding-left: 32px;
+}
+#second{
+    color: #7209b7;
+    display: flex;
+    font-size: 80px;
+    font-family: 'Dancing Script';
+}
+body{
+    background-image: url(pexels-miguel-á-padriñán-255379.jpg);
+    background-size: cover;
+}
+#pic1{
+    margin-top: 50px;
+    height: 400px;
+    width: 340px;
+    background-image: url(Zelda\ Characters.jpg);
+    background-size: contain;
+    border-radius: 5%;
+    margin-left: 20px;
+    float:left;
+}
+#pic2{
+    margin-top: 50px;
+    height: 400px;
+    width: 840px;
+    background-size: contain;
+    border-radius: 5%;
+    margin-left: 390px;
+    overflow: hidden;
+}
+#wrapper{
+    width: 1250px;
+    overflow: hidden;
+}
+#pic1:hover{
+    opacity: 0.75;
+    transition: 0.75s;
+}
